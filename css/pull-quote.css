@@ -1,0 +1,45 @@
+.pull-quote {
+  width: 400px;
+  font-size: 44px;
+  font-family: "Bebas Neue", "Helvetica Neue", sans-serif;
+  background-image: url('../images/quotes.png');
+  background-repeat: no-repeat;
+  min-height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding-left: 60px;
+}
+
+.pull-quote-center {
+  margin: 20px auto;
+}
+
+.pull-quote-left {
+  float: left;
+  margin: 20px 20px 20px 0;
+}
+
+.pull-quote-right {
+  float: right;
+  margin: 20px 0px 20px 20px;
+}
+
+div.pull-quote p {
+  font-size: 1em;
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+
+div.pull-quote .pull-quote-author {
+  text-align: right; 
+  font-size: 0.6em;
+}
+
+@media only screen and (max-width: 400px) {
+  .pull-quote {
+    padding: 0;
+    width: auto;
+    margin: 0px 10px;
+  }
+}
